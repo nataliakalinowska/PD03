@@ -1,9 +1,9 @@
-package teapot;
+package czajnik;
 
 
 import java.io.FileNotFoundException;
 
-public class Teapot {
+public class Czajnik {
 
     
     public static void main(String[] args) {
