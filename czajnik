@@ -1,0 +1,19 @@
+package teapot;
+
+
+import java.io.FileNotFoundException;
+
+public class Teapot {
+
+    
+    public static void main(String[] args) {
+       
+        Maths.Bezier(Maths.wczytaj("czajnik_punkty.txt"),3,3,"czajnik.txt");
+        Maths.Bezier(Maths.wczytaj("filizanka_punkty.txt"),3,3,"filizanka.txt");
+        Maths.Bezier(Maths.wczytaj("lyzka_punkty.txt"),3,3,"lyzka.txt");
+        
+        //System.out.println(Maths.silnia(4);
+       //System.out.println(Maths.symbolNewtona(7, 3));
+    }
+    
+}
