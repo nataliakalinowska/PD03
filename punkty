@@ -1,0 +1,13 @@
+package teapot;
+
+public class Punkty {
+    double wsp1;
+    double wsp2;
+    double wsp3;
+    
+    public Punkty(double wsp1, double wsp2, double wsp3){
+        this.wsp1 = wsp1;
+        this.wsp2 = wsp2;
+        this.wsp3 = wsp3;
+    } 
+}
